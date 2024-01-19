@@ -2,8 +2,8 @@
 
 /**
  * bubble_sort - function to implement bubble sort
- * @array - array
- * @size - number of elements in the array
+ * @array: The array to be sorted.
+ * @size: number of elements in the array
  * Return: void, nothing to return
  */
 void bubble_sort(int *array, size_t size)
@@ -18,15 +18,15 @@ void bubble_sort(int *array, size_t size)
 			{
 				swap(&array[j], &array[j + 1]);
 				print_array(array, size);
-			}	
+			}
 		}
 	}
 }
 
 /**
  * swap - function to swap elements
- * @a: paramaters
- * @b: paramaters
+ * @a: first paramater
+ * @b: second paramater
  *
  */
 void swap(int *a, int *b)
