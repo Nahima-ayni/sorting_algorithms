@@ -22,3 +22,18 @@ void bubble_sort(int *array, size_t size)
 		}
 	}
 }
+
+/**
+ * swap - function to swap elements
+ * @a: first paramater
+ * @b: second paramater
+ *
+ */
+void swap(int *a, int *b)
+{
+	int temp;
+
+	temp = *a;
+	*a = *b;
+	*b = temp;
+}
