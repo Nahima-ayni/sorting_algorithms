@@ -3,7 +3,7 @@
 /**
  * selection_sort - function for selection sort
  * @array: the array
- * @size - number of elements
+ * @size: number of elements
  */
 void selection_sort(int *array, size_t size)
 {
