@@ -1,5 +1,9 @@
 #include "sort.h"
 
+void swap(int *a, int *b);
+void heapify(int *array, int i, size_t size);
+void heap_sort(int *array, size_t size);
+
 /**
  * * swap - swap two elements in an array
  * @a: first element
