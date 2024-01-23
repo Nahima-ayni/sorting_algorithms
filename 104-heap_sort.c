@@ -7,9 +7,9 @@
  */
 void swap(int *a, int *b)
 {
-    int temp = *a;
-    *a = *b;
-    *b = temp;
+	int temp = *a;
+	*a = *b;
+	*b = temp;
 }
 
 /**
@@ -37,7 +37,7 @@ void heapify(int *array, int i, size_t size)
 		swap(&array[i], &array[largest]);
 		print_array(array, size);
 		heapify(array, size, largest);
-    }
+	}
 }
 
 /**
@@ -45,7 +45,7 @@ void heapify(int *array, int i, size_t size)
  * @array: pointer, array to be sorted
  * @size: size of the array
  */
-void heap_sort(int *array, size_t size) 
+void heap_sort(int *array, size_t size)
 {
 	int i;
 
