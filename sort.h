@@ -35,6 +35,5 @@ void swap(int *a, int *b);
 void swap_list(listint_t *a, listint_t *b);
 int LargestKnuthGap(int n);
 void reduceGap(int *gap);
-void swap_node(listint_t **list, listint_t *a, listint_t *b);
 
 #endif
