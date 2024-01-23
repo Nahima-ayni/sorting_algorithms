@@ -39,7 +39,6 @@ int LargestKnuthGap(int n);
 void reduceGap(int *gap);
 void swap_nodes(listint_t **list, listint_t *a, listint_t *b);
 void merge(int *array, size_t left_half, size_t right_half);
-void max_heap(int *array, size_t size);
-void heapify(int *array, int i, size_t heapSize);
+void heapify(int *array, int i, size_t heapSize, size_t size);
 
 #endif
